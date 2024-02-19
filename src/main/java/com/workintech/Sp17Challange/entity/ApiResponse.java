@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 @AllArgsConstructor
-public class Grade {
-    private int coefficient;
-    private String note;
+public class ApiResponse {
+    private double totalGdp;
+    Course course;
 }

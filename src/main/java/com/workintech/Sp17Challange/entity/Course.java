@@ -1,7 +1,10 @@
 package com.workintech.Sp17Challange.entity;
 
-public class Course {
+import lombok.Data;
 
+@Data
+public class Course {
+   private Integer id;
    private String name;
    private int credit;
    private Grade grade;
